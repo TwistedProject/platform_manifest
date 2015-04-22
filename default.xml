@@ -14,7 +14,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="aow1980/platform_build" remote="github" revision="L-5.1" >
+  <project path="build" name="TeamTwisted/platform_build" remote="github" revision="L-5.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -263,7 +263,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs" />
+  <project path="frameworks/base" name="TeamTwisted/frameworks_base" remote="github" revision="aosp" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -272,7 +272,7 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs" />
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
+  <project path="frameworks/native" name="TeamTwisted/frameworks_native" remote="github" revision="aosp" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs" />
@@ -364,7 +364,7 @@
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
   <project path="packages/apps/ScreenRecorder" name="SimpleAOSP-Lollipop/platform_packages_apps_ScreenRecorder" remote="github" revision="L-5.1" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" />
+  <project path="packages/apps/Settings" name="TeamTwisted/packages_apps_Settings" remote="github" revision="aosp" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -443,7 +443,7 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" />
   <project path="tools/swt" name="platform/tools/swt" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" />
-  <project path="vendor/simpleaosp" name="aow1980/platform_vendor_simpleaosp" remote="github" revision="L-5.1" />
+  <project path="vendor/simpleaosp" name="TeamTwisted/platform_vendor_simpleaosp" remote="github" revision="L-5.1" />
 
   <!--Devices for now -->
   <project path="device/lge/hammerhead" name="SimpleAOSP-Lollipop/platform_device_lge_hammerhead" groups="device,hammerhead" remote="github" revision="L-5.1" />
@@ -456,6 +456,6 @@
   <project path="vendor/moto/shamu" name="OptiPop/vendor_moto_shamu" remote="github" revision="dark-5.1" />  
 
   <!--Extra for now -->
-  <project path="platform_manifest" name="aow1980/aosp_manifest" remote="github" revision="L-5.1" />
+  <project path="platform_manifest" name="TeamTwisted/aosp_manifest" remote="github" revision="L-5.1" />
 
 </manifest>
