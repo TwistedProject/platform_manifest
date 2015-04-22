@@ -1,4 +1,4 @@
-SimpleAOSP Github
+aow1980 Github
 ===================
 
 Setting up Build Environment
@@ -10,8 +10,8 @@ Setting up Build Environment
 Initializing the Source
 -----------------------
 (Assuming you have a valid build environment setup)
-- mkdir simpleaosp
-- cd ~/simpleaosp
+- mkdir aosp
+- cd ~/aosp
 - repo init -u https://github.com/aow1980/platform_manifest.git -b L-5.1
 
 Sync the Source
