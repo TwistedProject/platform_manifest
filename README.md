@@ -12,7 +12,7 @@ Initializing the Source
 (Assuming you have a valid build environment setup)
 - mkdir simpleaosp
 - cd ~/simpleaosp
-- repo init -u https://github.com/SimpleAOSP-Lollipop/platform_manifest.git -b L-5.1
+- repo init -u https://github.com/aow1980/platform_manifest.git -b L-5.1
 
 Sync the Source
 ---------------
