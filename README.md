@@ -12,7 +12,7 @@ Initializing the Source
 (Assuming you have a valid build environment setup)
 - mkdir aosp
 - cd ~/aosp
-- repo init -u https://github.com/TeamTwisted/aosp_manifest.git -b L-5.1
+- repo init -u https://github.com/TeamTwisted/aosp_manifest.git -b lp5.1
 
 Sync the Source
 ---------------
