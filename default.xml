@@ -456,6 +456,6 @@
   <project path="vendor/moto/shamu" name="OptiPop/vendor_moto_shamu" remote="github" revision="dark-5.1" />  
 
   <!--Extra for now -->
-  <project path="platform_manifest" name="TeamTwisted/aosp_manifest" remote="github" revision="L-5.1" />
+  <project path="platform_manifest" name="TeamTwisted/aosp_manifest" remote="github" revision="lp5.1" />
 
 </manifest>
