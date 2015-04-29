@@ -451,6 +451,10 @@
   <project path="device/moto/shamu" name="TeamTwisted/platform_device_moto_shamu" remote="github" revision="L-5.1" />
   <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" clone-depth="1" />
 
+  <!--Kernel For Devices -->
+  <project path="kernel/lge/hammerhead" name="TeamTwisted/hammerhead" remote="github" revision="lollipop-mr1" />
+  <project path="kernel/moto/shamu" name="TeamTwisted/Shamu" remote="github" revision="lollipop-mr1" />
+
   <!--Vendors for now -->
   <project path="vendor/lge" name="OptiPop/vendor_lge" remote="github" revision="opti-5.1" />
   <project path="vendor/moto/shamu" name="OptiPop/vendor_moto_shamu" remote="github" revision="dark-5.1" />  
