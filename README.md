@@ -10,13 +10,13 @@ Setting up Build Environment
 Initializing the Source
 -----------------------
 (Assuming you have a valid build environment setup)
-- mkdir aosp
+- mkdir aosp (or whatever you want to name the source folder)
 - cd ~/aosp
 - repo init -u https://github.com/TeamTwisted/aosp_manifest.git -b lp5.1
 
 Sync the Source
 ---------------
-- repo sync -jx -f (x being however many cpu jobs)
+- repo sync -jx -f (x being however many cpu jobs, you can also use -c to sync only the current branch specified by repo init)
 
 Getting Ready to Build
 ----------------------
@@ -33,8 +33,8 @@ Now Build it
 
 For Quick Dirty Rebuilds
 ------------------------
-- cd ~/simpleaosp
-- repo sync -jx -f (x being however many cpu jobs)
+- cd ~/aosp
+- repo sync -jx -f (x being however many cpu jobs, may also use -c as above)
 - lunch and pick the right device (refer to above for choosing right device to build)
 - mka dirty
 - mka otapackage
