@@ -392,7 +392,7 @@
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
   <project path="packages/services/Mms" name="platform/packages/services/Mms" />
   <project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" />
-  <project path="packages/services/Telephony" name="platform/packages/services/Telephony" />
+  <project path="packages/services/Telephony" name="TeamTwisted/packages_services_Telephony" remote="github" revision="lp5.1" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
