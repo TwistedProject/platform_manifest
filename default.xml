@@ -447,9 +447,9 @@
 
   <!--Devices for now -->
   <project path="device/lge/hammerhead" name="TeamTwisted/platform_device_lge_hammerhead" remote="github" revision="lp5.1" />
-  <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" clone-depth="1" />
+
   <project path="device/moto/shamu" name="TeamTwisted/platform_device_moto_shamu" remote="github" revision="lp5.1" />
-  <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" clone-depth="1" />
+
 
   <!--Kernel For Devices -->
   <project path="kernel/lge/hammerhead" name="TeamTwisted/hammerhead" remote="github" revision="lollipop-mr1" />
