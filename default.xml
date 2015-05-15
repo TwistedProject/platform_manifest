@@ -465,6 +465,5 @@
   <!-- Kernel Adiutor -->
   <project name="SlimSaber/KernelAdiutor" path="packages/apps/KernelAdiutor" remote="github" revision="lp5.0" />
   <project name="SlimSaber/android-floating-action-button" path="packages/apps/FloatingActionButton" remote="github" revision="lp5.0" />
-  <project path="frameworks/support" name="SlimSaber/platform_frameworks_support" remote="github" revision="lp5.0" />
 
 </manifest>
