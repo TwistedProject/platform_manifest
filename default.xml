@@ -55,7 +55,7 @@
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
-  <project path="external/chromium_org" name="OptiPop/external_chromium_org" remote="github" revision="opti-5.1" />
+  <project path="external/chromium_org" name="TeamTwisted/external_chromium_org" remote="github" revision="opti-5.1" />
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" />
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" />
   <project path="external/chromium_org/third_party/WebKit" name="OptiPop/external_chromium_org_third_party_WebKit" remote="github" revision="opti-5.1" />
@@ -167,7 +167,7 @@
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" />
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk,pdk-cw-fs" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk-cw-fs" />
-   <project path="external/libpng" name="OptiPop/external_libpng" remote="github" revision="opti-5.1" />
+   <project path="external/libpng" name="TeamTwisted/external_libpng" remote="github" revision="opti-5.1" />
   <project path="external/libseccomp-helper" name="platform/external/libseccomp-helper" groups="pdk-cw-fs" />
   <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
   <project path="external/libsepol" name="platform/external/libsepol" groups="pdk" />
