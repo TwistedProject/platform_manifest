@@ -466,4 +466,6 @@
   <project name="SlimSaber/KernelAdiutor" path="packages/apps/KernelAdiutor" remote="github" revision="lp5.0" />
   <project name="SlimSaber/android-floating-action-button" path="packages/apps/FloatingActionButton" remote="github" revision="lp5.0" />
 
+  <!--Extras for Sm test -->
+  <project path="vendor/sm" name="TeamTwisted/vendor_sm" remote="bb" revision="master" />
 </manifest>
