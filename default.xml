@@ -465,7 +465,7 @@
   <!-- Kernel Adiutor -->
   <project name="SlimSaber/KernelAdiutor" path="packages/apps/KernelAdiutor" remote="github" revision="lp5.0" />
   <project name="SlimSaber/android-floating-action-button" path="packages/apps/FloatingActionButton" remote="github" revision="lp5.0" />
-
+  <project path="frameworks/opt/hardware" name="CyanogenMod/android_frameworks_opt_hardware"  remote="github" revision="cm-12.1"/>
   <project path="frameworks/opt/cards" name="gmillz/frameworks_opt_cards" remote="github" revision="lp5.1" />
 
   <!--Extras for Sm test -->
