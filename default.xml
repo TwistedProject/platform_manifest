@@ -229,7 +229,7 @@
   <project path="external/robolectric" name="platform/external/robolectric" groups="pdk-cw-fs" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
-  <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" />
+  <project path="external/sepolicy" name="TeamTwisted/external_sepolicy" remote="github" revision="lp5.1" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/skia" name="OptiPop/external_skia" remote="github" revision="opti-5.1" />
   <project path="external/smack" name="platform/external/smack" groups="pdk-cw-fs" />
@@ -323,7 +323,7 @@
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
-  <project path="libcore" name="OptiPop/libcore" remote="github" revision="opti-5.1" />
+  <project path="libcore" name="TeamTwisted/libcore" remote="github" revision="opti-5.1" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
@@ -452,7 +452,7 @@
 
   <!--Kernel For Devices -->
   <project path="kernel/lge/hammerhead" name="TeamTwisted/kernel_lge_hammerhead" remote="github" revision="lp5.1" />
-  <project path="kernel/moto/shamu" name="TeamTwisted/Shamu" remote="github" revision="lollipop-mr1" />
+  <project path="kernel/moto/shamu" name="imoseyon/leanKernel-shamu" remote="github" revision="lk-lp" />
 
   <!--Vendors for now -->
   <project path="vendor/lge" name="OptiPop/vendor_lge" remote="github" revision="opti-5.1" />
