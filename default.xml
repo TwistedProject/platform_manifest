@@ -167,7 +167,7 @@
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" />
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk,pdk-cw-fs" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk-cw-fs" />
-   <project path="external/libpng" name="TeamTwisted/external_libpng" remote="github" revision="opti-5.1" />
+  <project path="external/libpng" name="TeamTwisted/external_libpng" remote="github" revision="opti-5.1" />
   <project path="external/libseccomp-helper" name="platform/external/libseccomp-helper" groups="pdk-cw-fs" />
   <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
   <project path="external/libsepol" name="platform/external/libsepol" groups="pdk" />
@@ -178,7 +178,8 @@
   <project path="external/libutf" name="platform/external/libutf" groups="pdk-cw-fs" />
   <project path="external/libvorbis" name="platform/external/libvorbis" groups="pdk-cw-fs" />
   <project path="external/libvpx" name="platform/external/libvpx" groups="pdk" />
-  <project path="external/libvterm" name="CyanogenMod/android_external_libvterm" remote="github" revision="cm-12.1" />  <project path="external/libxml2" name="platform/external/libxml2" groups="pdk-cw-fs" />
+  <project path="external/libvterm" name="CyanogenMod/android_external_libvterm" remote="github" revision="cm-12.1" /> 
+  <project path="external/libxml2" name="platform/external/libxml2" groups="pdk-cw-fs" />
   <project path="external/libyuv" name="platform/external/libyuv" groups="libyuv,pdk-cw-fs" />
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" groups="pdk-cw-fs" />
   <project path="external/littlemock" name="platform/external/littlemock" groups="pdk-cw-fs" />
@@ -362,7 +363,8 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/ScreenRecorder" name="ezio84/android_packages_apps_ScreenRecorder" remote="github" revision="lp5.1" />  <project path="packages/apps/Settings" name="TeamTwisted/packages_apps_Settings" remote="bb" revision="lp5.1" />
+  <project path="packages/apps/ScreenRecorder" name="ezio84/android_packages_apps_ScreenRecorder" remote="github" revision="lp5.1" /> 
+  <project path="packages/apps/Settings" name="TeamTwisted/packages_apps_Settings" remote="bb" revision="lp5.1" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
