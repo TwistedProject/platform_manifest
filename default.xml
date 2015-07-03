@@ -352,7 +352,6 @@
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="github" revision="cm-12.0" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" />
-  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
@@ -474,4 +473,8 @@
   
   <!--Extras for Sm test -->
   <project path="vendor/sm" name="TeamTwisted/vendor_sm" remote="bb" revision="master" />
+  
+  <!-- Mms adding vendor -->
+  <project path="packages/apps/Mms" name="TeamTwisted/packages_apps_Mms" remote="github" revision="lp5.1" />
+
 </manifest>
