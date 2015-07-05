@@ -18,7 +18,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="OptiPop/art" remote="github" revision="opti-5.1" />
+  <project path="art" name="TeamTwisted/art" remote="github" revision="opti-5.1" />
   <project path="bionic" name="TeamTwisted/bionic" remote="github" revision="opti-5.1" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
