@@ -375,7 +375,7 @@
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
+  <project path="packages/inputmethods/LatinIME" name="TeamTwisted/packages_inputmethods_LatinIME" remote="github" revision="lp5.1" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" groups="pdk-cw-fs" />
@@ -448,7 +448,6 @@
   <project path="device/lge/hammerhead" name="TeamTwisted/platform_device_lge_hammerhead" remote="github" revision="lp5.1" />
   <project path="device/moto/shamu" name="TeamTwisted/platform_device_moto_shamu" remote="github" revision="temp" />
 
-
   <!--Kernel For Devices -->
   <project path="kernel/lge/hammerhead" name="TeamTwisted/kernel_lge_hammerhead" remote="github" revision="lp5.1" />
   <project path="kernel/moto/shamu" name="TeamTwisted/leanKernel-shamu" remote="github" revision="lk-lp" />
@@ -461,19 +460,15 @@
   <!--Extras for now -->
   <project path="external/android-visualizer" name="SlimRoms/android_external_android-visualizer" remote="github" revision="lp5.1" />
   <project path="packages/apps/AudioFX" name="SlimRoms/packages_apps_AudioFX" remote="github" revision="lp5.1" />
-
   <project path="external/htop" name="CyanogenMod/android_external_htop" remote="github" revision="cm-12.1" />
   <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="github" revision="cm-12.1" />
 
   <!-- Kernel Adiutor -->
-  <project name="SlimSaber/KernelAdiutor" path="packages/apps/KernelAdiutor" remote="github" revision="lp5.1" />
+  <project name="Grarak/KernelAdiutor" path="packages/apps/KernelAdiutor" remote="github" revision="master" />
   <project name="SlimSaber/android-floating-action-button" path="packages/apps/FloatingActionButton" remote="github" revision="lp5.1" />
   <project path="frameworks/opt/cards" name="SlimRoms/frameworks_opt_cards" remote="github" revision="lp5.1" />
   <project path="frameworks/opt/hardware" name="CyanogenMod/android_frameworks_opt_hardware" remote="github" revision="cm-12.1" />
-  
-  <!--Extras for Sm test -->
-  <project path="vendor/sm" name="TeamTwisted/vendor_sm" remote="bb" revision="master" />
-  
+
   <!-- Mms adding vendor -->
   <project path="packages/apps/Mms" name="TeamTwisted/packages_apps_Mms" remote="github" revision="lp5.1" />
 
