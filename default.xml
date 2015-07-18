@@ -454,7 +454,7 @@
   <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu" clone-depth="1" />
   
   <!--Vendors for now -->
-  <project path="vendor/lge" name="OptiPop/vendor_lge" remote="github" revision="opti-5.1" />
+  <project path="vendor/lge" name="TeamTwisted/vendor_lge" remote="github" revision="lp5.1" />
   <project path="vendor/moto/shamu" name="OptiPop/vendor_moto_shamu" remote="github" revision="opti-5.1" />  
 
   <!--Extras for now -->
