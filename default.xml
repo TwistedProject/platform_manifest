@@ -442,7 +442,7 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" />
   <project path="tools/swt" name="platform/tools/swt" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" />
-  <project path="vendor/twisted" name="TeamTwisted/platform_vendor_twisted" remote="github" revision="lp5.1-rebase" />
+  <project path="vendor/twisted" name="TeamTwisted/platform_vendor_twisted" remote="github" revision="lp5.1" />
 
   <!--Devices for now -->
   <project path="device/lge/hammerhead" name="TeamTwisted/platform_device_lge_hammerhead" remote="github" revision="lp5.1" />
