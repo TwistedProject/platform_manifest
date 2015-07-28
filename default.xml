@@ -446,12 +446,13 @@
   <!--Devices for now -->
   <project path="device/lge/hammerhead" name="TeamTwisted/platform_device_lge_hammerhead" remote="github" revision="lp5.1" />
   <project path="device/moto/shamu" name="TeamTwisted/platform_device_moto_shamu" remote="github" revision="temp" />
-
+  <project path="device/lge/mako" name="device/lge/mako" groups="device,mako" />
+ 
   <!--Kernel For Devices -->
   <project path="kernel/lge/hammerhead" name="TeamTwisted/kernel_lge_hammerhead" remote="github" revision="lp5.1" />
   <project path="kernel/moto/shamu" name="TeamTwisted/leanKernel-shamu" remote="github" revision="lk-lp" />
-  <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu" clone-depth="1" />
-  
+   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" clone-depth="1" />
+
   <!--Vendors for now -->
   <project path="vendor/lge" name="TeamTwisted/vendor_lge" remote="github" revision="lp5.1" />
   <project path="vendor/moto/shamu" name="OptiPop/vendor_moto_shamu" remote="github" revision="opti-5.1" />  
