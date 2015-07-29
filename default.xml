@@ -289,7 +289,7 @@
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" />
+  <project path="frameworks/opt/telephony" name="TeamTwisted/frameworks_opts_telephony" remote="github" revision="lp5.1"  />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs" />
@@ -356,7 +356,6 @@
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
-
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
@@ -383,14 +382,14 @@
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" groups="pdk-cw-fs" />
   <project path="packages/providers/MediaProvider" name="TeamTwisted/packages_providers_MediaProvider" remote="github" revision="lp5.1" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
-  <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" />
+  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="github" revision="lp5.1"  />
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" groups="pdk-cw-fs" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
   <project path="packages/services/Mms" name="platform/packages/services/Mms" />
-  <project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" />
+  <project path="packages/services/Telecomm" name="TeamTwisted/packages_services_Telecomm"  remote="github" revision="lp5.1" />
   <project path="packages/services/Telephony" name="TeamTwisted/packages_services_Telephony" remote="github" revision="lp5.1" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
@@ -471,6 +470,6 @@
 
   <!-- Mms adding vendor -->
   <project path="packages/apps/Mms" name="TeamTwisted/packages_apps_Mms" remote="github" revision="lp5.1" />
-  
+  <project path="packages/apps/SlimOTA" name="TeamTwisted/packages_apps_SlimOTA" remote="github" revision="master" />
   <project path="packages/apps/PackageInstaller" name="TeamTwisted/packages_apps_PackageInstaller" remote="github" revision="lp5.1" />
 </manifest>
