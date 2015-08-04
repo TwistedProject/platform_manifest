@@ -143,7 +143,7 @@
   <project path="external/jhead" name="platform/external/jhead" groups="pdk" />
   <project path="external/jline" name="platform/external/jline" groups="notdefault,tradefed" />
   <project path="external/jmdns" name="platform/external/jmdns" groups="pdk-cw-fs" />
-  <project path="external/jpeg" name="OptiPop/external_jpeg" remote="github" revision="opti-5.1" />
+  <project path="external/jpeg" name="TeamTwisted/external_jpeg" remote="github" revision="opti-5.1" />
   <project path="external/jsilver" name="platform/external/jsilver" groups="pdk-cw-fs,tradefed" />
   <project path="external/jsmn" name="platform/external/jsmn" groups="pdk" />
   <project path="external/jsoncpp" name="platform/external/jsoncpp" groups="pdk-cw-fs" />
@@ -231,12 +231,12 @@
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
   <project path="external/sepolicy" name="TeamTwisted/external_sepolicy" remote="github" revision="lp5.1" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk-cw-fs,qcom_msm8x26" />
-  <project path="external/skia" name="OptiPop/external_skia" remote="github" revision="opti-5.1" />
+  <project path="external/skia" name="TeamTwisted/external_skia" remote="github" revision="opti-5.1" />
   <project path="external/smack" name="platform/external/smack" groups="pdk-cw-fs" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
   <project path="external/speex" name="platform/external/speex" groups="pdk" />
-  <project path="external/sqlite" name="OptiPop/external_sqlite" remote="github" revision="opti-5.1" />
+  <project path="external/sqlite" name="TeamTwisted/external_sqlite" remote="github" revision="opti-5.1" />
   <project path="external/srec" name="platform/external/srec" groups="pdk-cw-fs" />
   <project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs" />
   <project path="external/stlport" name="OptiPop/external_stlport" remote="github" revision="opti-5.1" />
@@ -461,6 +461,9 @@
   <project path="packages/apps/AudioFX" name="SlimRoms/packages_apps_AudioFX" remote="github" revision="lp5.1" />
   <project path="external/htop" name="CyanogenMod/android_external_htop" remote="github" revision="cm-12.1" />
   <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="github" revision="cm-12.1" />
+
+  <!-- SlimWallpaperPicker -->
+  <project name="SlimSaber/packages_apps_WallpaperPicker" path="packages/apps/WallpaperPicker" remote="github" revision="lp5.1" />
 
   <!-- Kernel Adiutor -->
   <project name="TeamTwisted/KernelAdiutor" path="packages/apps/KernelAdiutor" remote="github" revision="lp5.1" />
