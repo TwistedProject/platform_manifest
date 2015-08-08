@@ -450,7 +450,7 @@
   <!--Kernel For Devices -->
   <project path="kernel/lge/hammerhead" name="TeamTwisted/kernel_lge_hammerhead" remote="github" revision="lp5.1" />
   <project path="kernel/moto/shamu" name="TeamTwisted/leanKernel-shamu" remote="github" revision="lk-lp" />
-   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" clone-depth="1" />
+   <project path="kernel/lge/mako" name="hellsgod/hells-Core-N4" remote="github" revision="l-mr1" />
 
   <!--Vendors for now -->
   <project path="vendor/lge" name="TeamTwisted/vendor_lge" remote="github" revision="lp5.1" />
