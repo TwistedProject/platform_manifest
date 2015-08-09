@@ -450,7 +450,7 @@
   <!--Kernel For Devices -->
   <project path="kernel/lge/hammerhead" name="TeamTwisted/kernel_lge_hammerhead" remote="github" revision="lp5.1" />
   <project path="kernel/moto/shamu" name="TeamTwisted/leanKernel-shamu" remote="github" revision="lk-lp" />
-  <project path="kernel/moto/shamu-HC" name="TeamTwisted/hells-Core-N6" remote="github" revision="lollipop-mr1-m2-mako" />
+  <project path="kernel/moto/shamu-HC" name="TeamTwisted/hells-Core-N6" remote="github" revision="lollipop-mr1-m2-ZEN" />
    <project path="kernel/lge/mako" name="hellsgod/hells-Core-N4" remote="github" revision="l-mr1" />
 
   <!--Vendors for now -->
