@@ -444,8 +444,9 @@
 
   <!--Devices for now -->
   <project path="device/lge/hammerhead" name="TeamTwisted/platform_device_lge_hammerhead" remote="github" revision="lp5.1" />
-  <project path="device/moto/shamu" name="TeamTwisted/platform_device_moto_shamu" remote="github" revision="temp" />
+  <project path="device/moto/shamu" name="TeamTwisted/platform_device_moto_shamu" remote="github" revision="lp5.1" />
   <project path="device/lge/mako" name="TeamTwisted/platform_device_lge_mako" remote="github" revision="lp5.1" />
+  <project path="device/asus/flo" name="TeamTwisted/platform_device_asus_flo" remote="github" revision="lp5.1" />
  
   <!--Kernel For Devices -->
   <project path="kernel/lge/hammerhead" name="TeamTwisted/kernel_lge_hammerhead" remote="github" revision="lp5.1" />
@@ -453,14 +454,14 @@
   <project path="kernel/moto/shamu-HC" name="TeamTwisted/hells-Core-N6" remote="github" revision="lollipop-mr1-m2-mako" />
   <project path="kernel/lge/hells-Core-N4" name="hellsgod/hells-Core-N4" remote="github" revision="l-mr1" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" clone-depth="1" />
+  <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" clone-depth="1" />
 
   <!--Vendors for now -->
   <project path="vendor/lge" name="TeamTwisted/vendor_lge" remote="github" revision="lp5.1" />
-  <project path="vendor/moto/shamu" name="OptiPop/vendor_moto_shamu" remote="github" revision="opti-5.1" />  
+  <project path="vendor/moto/shamu" name="OptiPop/vendor_moto_shamu" remote="github" revision="opti-5.1" /> 
+  <project path="vendor/asus/" name="vendor_asus" remote="chroma" revision= "lp5.1"/> 
 
   <!--Extras for now -->
-  <project path="external/android-visualizer" name="SlimRoms/android_external_android-visualizer" remote="github" revision="lp5.1" />
-  <project path="packages/apps/AudioFX" name="SlimRoms/packages_apps_AudioFX" remote="github" revision="lp5.1" />
   <project path="external/htop" name="CyanogenMod/android_external_htop" remote="github" revision="cm-12.1" />
   <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="github" revision="cm-12.1" />
 
