@@ -455,8 +455,8 @@
   <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" clone-depth="1" />
 
   <!--Vendors for now -->
-  <project path="vendor/lge" name="TeamTwisted/vendor_lge" remote="github" revision="lp5.1" />
-  <project path="vendor/moto/shamu" name="OptiPop/vendor_moto_shamu" remote="github" revision="opti-5.1" /> 
+  <project path="vendor/lge" name="Chroma-Aosp/vendor_lge" remote="github" revision="lp5.1" />
+  <project path="vendor/moto/shamu" name="Chroma-Aosp/vendor_moto_shamu" remote="github" revision="lp5.1" /> 
   <project path="vendor/asus/" name="Chroma-Aosp/vendor_asus" remote="github" revision= "lp5.1"/> 
 
   <!--Extras for now -->
