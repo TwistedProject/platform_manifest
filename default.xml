@@ -19,7 +19,7 @@
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="TeamTwisted/art" remote="github" revision="opti-5.1" />
-  <project path="bionic" name="TeamTwisted/bionic" remote="github" revision="opti-5.1" />
+  <project path="bionic" name="TeamTwisted/bionic" remote="github" revision="benzo" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" />
@@ -152,7 +152,7 @@
   <project path="external/ksoap2" name="platform/external/ksoap2" groups="pdk-cw-fs" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" groups="pdk-cw-fs" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk-cw-fs" />
-  <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" />
+  <project path="external/libcxx" name="BenzoRom/external_libcxx" groups="pdk" remote="github" revision="lollipop" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" />
   <project path="external/libedit" name="platform/external/libedit" />
   <project path="external/libexif" name="platform/external/libexif" groups="pdk-cw-fs" />
@@ -412,6 +412,7 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.2" name="xanaxdroid/arm-eabi-5.2" remote="bb" revision="sabermod" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.0" name="xanaxdroid/arm-eabi-6.0" remote="bb" revision="sabermod" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="TeamTwisted/arm-linux-androideabi-4.9-cortex-a15" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.2" name="xanaxdroid/arm-linux-androideabi-5.2" remote="bb" revision="sabermod" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" revision="master" />
   <project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" />
