@@ -18,8 +18,6 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="TeamTwisted/art" remote="github" revision="opti-5.1" />
-  <project path="bionic" name="TeamTwisted/bionic" remote="github" revision="benzo" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" />
@@ -49,16 +47,13 @@
   <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
-  <project path="external/busybox" name="OptiPop/busybox" remote="github" revision="opti-5.1" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk-cw-fs" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
-  <project path="external/chromium_org" name="TeamTwisted/external_chromium_org" remote="github" revision="opti-5.1" />
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" />
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" />
-  <project path="external/chromium_org/third_party/WebKit" name="OptiPop/external_chromium_org_third_party_WebKit" remote="github" revision="opti-5.1" />
   <project path="external/chromium_org/third_party/angle" name="platform/external/chromium_org/third_party/angle" />
   <project path="external/chromium_org/third_party/boringssl/src" name="platform/external/chromium_org/third_party/boringssl/src" />
   <project path="external/chromium_org/third_party/brotli/src" name="platform/external/chromium_org/third_party/brotli/src" />
@@ -79,7 +74,6 @@
   <project path="external/chromium_org/third_party/opus/src" name="platform/external/chromium_org/third_party/opus/src" />
   <project path="external/chromium_org/third_party/ots" name="platform/external/chromium_org/third_party/ots" />
   <project path="external/chromium_org/third_party/sfntly/cpp/src" name="platform/external/chromium_org/third_party/sfntly/cpp/src" />
-  <project path="external/chromium_org/third_party/skia" name="OptiPop/external_chromium_org_third_party_skia" remote="github" revision="opti-5.1" />
   <project path="external/chromium_org/third_party/smhasher/src" name="platform/external/chromium_org/third_party/smhasher/src" />
   <project path="external/chromium_org/third_party/usrsctp/usrsctplib" name="platform/external/chromium_org/third_party/usrsctp/usrsctplib" />
   <project path="external/chromium_org/third_party/webrtc" name="platform/external/chromium_org/third_party/webrtc" />
@@ -87,7 +81,6 @@
   <project path="external/chromium_org/tools/grit" name="platform/external/chromium_org/tools/grit" />
   <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp" />
   <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" />
-  <project path="external/clang" name="OptiPop/android_external_clang" remote="github" revision="opti-5.1" />
   <project path="external/cmockery" name="platform/external/cmockery" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
   <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk-cw-fs" />
@@ -97,7 +90,6 @@
   <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" />
   <project path="external/doclava" name="platform/external/doclava" groups="pdk-cw-fs,tradefed" />
   <project path="external/droiddriver" name="platform/external/droiddriver" groups="pdk-cw-fs" />
-  <project path="external/e2fsprogs" name="OptiPop/external_e2fsprogs" remote="github" revision="opti-5.1" />
   <project path="external/easymock" name="platform/external/easymock" groups="pdk-cw-fs,tradefed" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" groups="pdk-cw-fs" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" groups="pdk-cw-fs" />
@@ -110,7 +102,6 @@
   <project path="external/f2fs-tools" name="platform/external/f2fs-tools" groups="pdk" />
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" />
   <project path="external/fio" name="platform/external/fio" />
-  <project path="external/flac" name="TeamTwisted/external_flac" remote="github" revision="opti-5.1" />
   <project path="external/fonttools" name="platform/external/fonttools" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" groups="pdk-cw-fs" />
@@ -118,7 +109,6 @@
   <project path="external/genext2fs" name="platform/external/genext2fs" groups="pdk-cw-fs" />
   <project path="external/giflib" name="platform/external/giflib" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/glide" name="platform/external/glide" />
-  <project path="external/google" name="CyanogenMod/android_external_google" remote="github" revision="cm-12.0" />
   <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" groups="pdk-cw-fs" />
   <project path="external/google-fonts/coming-soon" name="platform/external/google-fonts/coming-soon" groups="pdk-cw-fs" />
   <project path="external/google-fonts/dancing-script" name="platform/external/google-fonts/dancing-script" groups="pdk-cw-fs" />
@@ -143,7 +133,6 @@
   <project path="external/jhead" name="platform/external/jhead" groups="pdk" />
   <project path="external/jline" name="platform/external/jline" groups="notdefault,tradefed" />
   <project path="external/jmdns" name="platform/external/jmdns" groups="pdk-cw-fs" />
-  <project path="external/jpeg" name="TeamTwisted/external_jpeg" remote="github" revision="opti-5.1" />
   <project path="external/jsilver" name="platform/external/jsilver" groups="pdk-cw-fs,tradefed" />
   <project path="external/jsmn" name="platform/external/jsmn" groups="pdk" />
   <project path="external/jsoncpp" name="platform/external/jsoncpp" groups="pdk-cw-fs" />
@@ -152,7 +141,6 @@
   <project path="external/ksoap2" name="platform/external/ksoap2" groups="pdk-cw-fs" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" groups="pdk-cw-fs" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk-cw-fs" />
-  <project path="external/libcxx" name="BenzoRom/external_libcxx" groups="pdk" remote="github" revision="lollipop" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" />
   <project path="external/libedit" name="platform/external/libedit" />
   <project path="external/libexif" name="platform/external/libexif" groups="pdk-cw-fs" />
@@ -167,7 +155,6 @@
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" />
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk,pdk-cw-fs" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk-cw-fs" />
-  <project path="external/libpng" name="TeamTwisted/external_libpng" remote="github" revision="opti-5.1" />
   <project path="external/libseccomp-helper" name="platform/external/libseccomp-helper" groups="pdk-cw-fs" />
   <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
   <project path="external/libsepol" name="platform/external/libsepol" groups="pdk" />
@@ -178,7 +165,6 @@
   <project path="external/libutf" name="platform/external/libutf" groups="pdk-cw-fs" />
   <project path="external/libvorbis" name="platform/external/libvorbis" groups="pdk-cw-fs" />
   <project path="external/libvpx" name="platform/external/libvpx" groups="pdk" />
-  <project path="external/libvterm" name="CyanogenMod/android_external_libvterm" remote="github" revision="cm-12.1" /> 
   <project path="external/libxml2" name="platform/external/libxml2" groups="pdk-cw-fs" />
   <project path="external/libyuv" name="platform/external/libyuv" groups="libyuv,pdk-cw-fs" />
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" groups="pdk-cw-fs" />
@@ -213,7 +199,6 @@
   <project path="external/opencv" name="platform/external/opencv" groups="pdk-cw-fs" />
   <project path="external/openfst" name="platform/external/openfst" groups="pdk-cw-fs"/>
   <project path="external/openssh" name="platform/external/openssh" groups="pdk-cw-fs"/>
-  <project path="external/openssl" name="OptiPop/external_openssl" remote="github" revision="opti-5.1" />
   <project path="external/oprofile" name="platform/external/oprofile" groups="pdk-cw-fs" />
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" />
   <project path="external/pcre" name="platform/external/pcre" groups="pdk-cw-fs" />
@@ -229,17 +214,13 @@
   <project path="external/robolectric" name="platform/external/robolectric" groups="pdk-cw-fs" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
-  <project path="external/sepolicy" name="TeamTwisted/external_sepolicy" remote="github" revision="lp5.1" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk-cw-fs,qcom_msm8x26" />
-  <project path="external/skia" name="TeamTwisted/external_skia" remote="github" revision="opti-5.1" />
   <project path="external/smack" name="platform/external/smack" groups="pdk-cw-fs" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
   <project path="external/speex" name="platform/external/speex" groups="pdk" />
-  <project path="external/sqlite" name="TeamTwisted/external_sqlite" remote="github" revision="opti-5.1" />
   <project path="external/srec" name="platform/external/srec" groups="pdk-cw-fs" />
   <project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs" />
-  <project path="external/stlport" name="OptiPop/external_stlport" remote="github" revision="opti-5.1" />
   <project path="external/strace" name="platform/external/strace" groups="pdk-cw-fs" />
   <project path="external/stressapptest" name="platform/external/stressapptest" groups="pdk-cw-fs" />
   <project path="external/svox" name="platform/external/svox" groups="pdk-cw-fs" />
@@ -262,8 +243,6 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
-  <project path="frameworks/av" name="TeamTwisted/frameworks_av" remote="github" revision="lp5.1" />
-  <project path="frameworks/base" name="TeamTwisted/platform_frameworks_base" remote="github" revision="lp5.1" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -272,7 +251,6 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs" />
-  <project path="frameworks/native" name="TeamTwisted/frameworks_native" remote="github" revision="lp5.1" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs" />
@@ -285,18 +263,15 @@
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" groups="pdk-cw-fs" />
   <project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/net/wifi" name="TeamTwisted/frameworks_opt_net_wifi" remote="github" revision="lp5.1" />
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/telephony" name="TeamTwisted/frameworks_opts_telephony" remote="github" revision="lp5.1"  />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
   <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs" />
-  <project path="frameworks/webview" name="BenzoRom/frameworks_webview"  remote="github" revision="lollipop" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs" />
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
@@ -323,33 +298,21 @@
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
-  <project path="libcore" name="TeamTwisted/libcore" remote="github" revision="opti-5.1" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
-  <project path="packages/apps/Bluetooth" name="TeamTwisted/packages_apps_Bluetooth" remote="github" revision="lp5.1" />
-  <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
   <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" />
-  <project path="packages/apps/CellBroadcastReceiver" name="TeamTwisted/packages_apps_CellBroadcastReceiver"  remote="github" revision="lp5.1"/>
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs" />
-  <project path="packages/apps/Contacts" name="TeamTwisted/packages_apps_Contacts" remote="github" revision="lp5.1" />
-  <project path="packages/apps/ContactsCommon" name="TeamTwisted/packages_apps_ContactsCommon" remote="github" revision="lp5.1" />
-  <project path="packages/apps/Dialer" name="TeamTwisted/packages_apps_Dialer" remote="github" revision="lp5.1" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
-  <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/FMRadio" name="platform/packages/apps/FMRadio" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
-  <project path="packages/apps/Gallery2" name="TeamTwisted/android_packages_apps_Gallery2" remote="github" revision="lp5.1"  />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
-  <project path="packages/apps/InCallUI" name="TeamTwisted/packages_apps_InCallUI" remote="github" revision="lp5.1" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
-  <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
-  <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="github" revision="cm-12.1" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
@@ -360,36 +323,28 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/ScreenRecorder" name="ezio84/android_packages_apps_ScreenRecorder" remote="github" revision="lp5.1" /> 
-  <project path="packages/apps/Settings" name="TeamTwisted/packages_apps_Settings" remote="github" revision="lp5.1-gh" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
-  <project path="packages/apps/Terminal" name="ezio84/android_packages_apps_Terminal" remote="github" revision="cm-12.1" />
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="TeamTwisted/packages_inputmethods_LatinIME" remote="github" revision="lp5.1" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" groups="pdk-cw-fs" />
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" groups="pdk-cw-fs" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" groups="pdk-cw-fs" />
-  <project path="packages/providers/MediaProvider" name="TeamTwisted/packages_providers_MediaProvider" remote="github" revision="lp5.1" />
-  <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
-  <project path="packages/providers/TelephonyProvider" name="TeamTwisted/packages_providers_TelephonyProvider" remote="github" revision="lp5.1"  />
+  <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />>
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" groups="pdk-cw-fs" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
   <project path="packages/services/Mms" name="platform/packages/services/Mms" />
-  <project path="packages/services/Telecomm" name="TeamTwisted/packages_services_Telecomm"  remote="github" revision="lp5.1" />
-  <project path="packages/services/Telephony" name="TeamTwisted/packages_services_Telephony" remote="github" revision="lp5.1" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
@@ -407,11 +362,6 @@
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" />
   <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" />
   <project path="prebuilts/eclipse-build-deps-sources" name="platform/prebuilts/eclipse-build-deps-sources"/>
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="TeamTwisted/arm-eabi-4.9-cortex-a15" remote="bb" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.2" name="xanaxdroid/arm-eabi-5.2" remote="bb" revision="sabermod" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.0" name="xanaxdroid/arm-eabi-6.0" remote="bb" revision="sabermod" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="TeamTwisted/arm-linux-androideabi-4.9-cortex-a15" remote="bb" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.2" name="xanaxdroid/arm-linux-androideabi-5.2" remote="bb" revision="sabermod" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" revision="master" />
   <project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" />
@@ -423,7 +373,6 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
-  <project path="system/core" name="TeamTwisted/system_core" remote="github" revision="aosp" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
@@ -439,43 +388,86 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" />
   <project path="tools/swt" name="platform/tools/swt" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" />
-  <project path="vendor/twisted" name="TeamTwisted/platform_vendor_twisted" remote="github" revision="lp5.1" />
 
-  <!--Devices for now -->
+  <!--Device repos for builds-->
   <project path="device/lge/hammerhead" name="TeamTwisted/platform_device_lge_hammerhead" remote="github" revision="lp5.1" />
   <project path="device/moto/shamu" name="TeamTwisted/platform_device_moto_shamu" remote="github" revision="temp" />
   <project path="device/lge/mako" name="TeamTwisted/platform_device_lge_mako" remote="github" revision="lp5.1" />
   <project path="device/asus/flo" name="TeamTwisted/platform_device_asus_flo" remote="github" revision="lp5.1" />
- 
-  <!--Kernel For Devices -->
   <project path="kernel/lge/hammerhead" name="TeamTwisted/kernel_lge_hammerhead" remote="github" revision="lp5.1" />
   <project path="kernel/moto/shamu" name="TeamTwisted/leanKernel-shamu" remote="github" revision="lk-lp" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" clone-depth="1" />
   <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" clone-depth="1" />
-
-  <!--Vendors for now -->
   <project path="vendor/lge" name="Chroma-Aosp/vendor_lge" remote="github" revision="lp5.1" />
   <project path="vendor/moto/shamu" name="Chroma-Aosp/vendor_moto_shamu" remote="github" revision="lp5.1" /> 
   <project path="vendor/asus/" name="Chroma-Aosp/vendor_asus" remote="github" revision= "lp5.1"/> 
 
-  <!--Extras for now -->
+  <!--SaberMod ToolChains-->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="TeamTwisted/arm-eabi-4.9-cortex-a15" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.2" name="xanaxdroid/arm-eabi-5.2" remote="bb" revision="sabermod" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.0" name="xanaxdroid/arm-eabi-6.0" remote="bb" revision="sabermod" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="TeamTwisted/arm-linux-androideabi-4.9-cortex-a15" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.2" name="xanaxdroid/arm-linux-androideabi-5.2" remote="bb" revision="sabermod" />
+
+  <!--TeamTwisted Tracked Sources -->
+  <project path="art" name="TeamTwisted/art" remote="github" revision="opti-5.1" />
+  <project path="bionic" name="TeamTwisted/bionic" remote="github" revision="benzo" />
+  <project path="external/chromium_org" name="TeamTwisted/external_chromium_org" remote="github" revision="opti-5.1" />
+  <project path="external/flac" name="TeamTwisted/external_flac" remote="github" revision="opti-5.1" />
+  <project path="external/jpeg" name="TeamTwisted/external_jpeg" remote="github" revision="opti-5.1" />
+  <project path="external/libpng" name="TeamTwisted/external_libpng" remote="github" revision="opti-5.1" />
+  <project path="external/sepolicy" name="TeamTwisted/external_sepolicy" remote="github" revision="lp5.1" />
+  <project path="external/skia" name="TeamTwisted/external_skia" remote="github" revision="opti-5.1" />
+  <project path="external/sqlite" name="TeamTwisted/external_sqlite" remote="github" revision="opti-5.1" />
+  <project path="frameworks/av" name="TeamTwisted/frameworks_av" remote="github" revision="lp5.1" />
+  <project path="frameworks/base" name="TeamTwisted/platform_frameworks_base" remote="github" revision="lp5.1" />
+  <project path="frameworks/native" name="TeamTwisted/frameworks_native" remote="github" revision="lp5.1" />
+  <project path="frameworks/opt/net/wifi" name="TeamTwisted/frameworks_opt_net_wifi" remote="github" revision="lp5.1" />
+  <project path="frameworks/opt/telephony" name="TeamTwisted/frameworks_opts_telephony" remote="github" revision="lp5.1"  />
+  <project path="libcore" name="TeamTwisted/libcore" remote="github" revision="opti-5.1" />
+  <project path="packages/apps/Bluetooth" name="TeamTwisted/packages_apps_Bluetooth" remote="github" revision="lp5.1" />
+  <project path="packages/apps/CellBroadcastReceiver" name="TeamTwisted/packages_apps_CellBroadcastReceiver"  remote="github" revision="lp5.1"/>
+  <project path="packages/apps/Contacts" name="TeamTwisted/packages_apps_Contacts" remote="github" revision="lp5.1" />
+  <project path="packages/apps/ContactsCommon" name="TeamTwisted/packages_apps_ContactsCommon" remote="github" revision="lp5.1" />
+  <project path="packages/apps/Dialer" name="TeamTwisted/packages_apps_Dialer" remote="github" revision="lp5.1" />
+  <project path="packages/apps/Gallery2" name="TeamTwisted/android_packages_apps_Gallery2" remote="github" revision="lp5.1"  />
+  <project path="packages/apps/InCallUI" name="TeamTwisted/packages_apps_InCallUI" remote="github" revision="lp5.1" />
+  <project path="packages/apps/Settings" name="TeamTwisted/packages_apps_Settings" remote="github" revision="lp5.1-gh" />
+  <project path="packages/inputmethods/LatinIME" name="TeamTwisted/packages_inputmethods_LatinIME" remote="github" revision="lp5.1" />
+  <project path="packages/providers/MediaProvider" name="TeamTwisted/packages_providers_MediaProvider" remote="github" revision="lp5.1" />
+  <project path="packages/providers/TelephonyProvider" name="TeamTwisted/packages_providers_TelephonyProvider" remote="github" revision="lp5.1" />
+  <project path="packages/services/Telecomm" name="TeamTwisted/packages_services_Telecomm"  remote="github" revision="lp5.1" />
+  <project path="packages/services/Telephony" name="TeamTwisted/packages_services_Telephony" remote="github" revision="lp5.1" />
+  <project path="packages/apps/Mms" name="TeamTwisted/packages_apps_Mms" remote="github" revision="lp5.1" />
+  <project path="packages/apps/SlimOTA" name="TeamTwisted/packages_apps_SlimOTA" remote="github" revision="master" />
+  <project path="packages/apps/PackageInstaller" name="TeamTwisted/packages_apps_PackageInstaller" remote="github" revision="lp5.1" />
+  <project path="packages/apps/ViPER4Android" name="TeamTwisted/viper4android_fx" remote="github" revision="master" />
+  <project path="packages/apps/DeskClock" name="TeamTwisted/packages_apps_DeskClock" remote="github" revision="lp5.1" /> 
+  <project path="frameworks/opt/hardware" name="TeamTwisted/frameworks_opt_hardware" remote="github" revision="cm-12.1" />
+  <project path="system/core" name="TeamTwisted/system_core" remote="github" revision="aosp" />
+  <project path="vendor/twisted" name="TeamTwisted/platform_vendor_twisted" remote="github" revision="lp5.1" />
+
+  <!--Non Google/Twisted Sources -->
+  <project path="external/busybox" name="DARKPOP/busybox" remote="github" revision="dark-5.1" />
+  <project path="external/chromium_org/third_party/WebKit" name="DARKPOP/external_chromium_org_third_party_WebKit" remote="github" revision="dark-5.1" />
+  <project path="external/chromium_org/third_party/skia" name="DARKPOP/external_chromium_org_third_party_skia" remote="github" revision="dark-5.1" />
+  <project path="external/clang" name="DARKPOP/android_external_clang" remote="github" revision="dark-5.1" />
+  <project path="external/e2fsprogs" name="DARKPOP/external_e2fsprogs" remote="github" revision="dark-5.1" />
+  <project path="external/google" name="CyanogenMod/android_external_google" remote="github" revision="cm-12.1" />
+  <project path="external/libcxx" name="BenzoRom/external_libcxx" groups="pdk" remote="github" revision="lollipop" />
+  <project path="external/libvterm" name="CyanogenMod/android_external_libvterm" remote="github" revision="cm-12.1" /> 
+  <project path="external/openssl" name="DARKPOP/external_openssl" remote="github" revision="dark-5.1" />
+  <project path="external/stlport" name="DARKPOP/external_stlport" remote="github" revision="dark-5.1" />
+  <project path="frameworks/webview" name="BenzoRom/frameworks_webview"  remote="github" revision="lollipop" />
+  <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="github" revision="cm-12.1" />
+  <project path="packages/apps/ScreenRecorder" name="ezio84/android_packages_apps_ScreenRecorder" remote="github" revision="lp5.1" /> 
+  <project path="packages/apps/Terminal" name="ezio84/android_packages_apps_Terminal" remote="github" revision="cm-12.1" />
   <project path="external/android-visualizer" name="SlimRoms/android_external_android-visualizer" remote="github" revision="lp5.1" />
   <project path="packages/apps/AudioFX" name="SlimRoms/packages_apps_AudioFX" remote="github" revision="lp5.1" />
   <project path="external/htop" name="CyanogenMod/android_external_htop" remote="github" revision="cm-12.1" />
   <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="github" revision="cm-12.1" />
-  <project path="packages/apps/ViPER4Android" name="TeamTwisted/viper4android_fx" remote="github" revision="master" />
-  <project path="packages/apps/DeskClock" name="TeamTwisted/packages_apps_DeskClock" remote="github" revision="lp5.1" /> 
-  
-  <!-- SlimWallpaperPicker -->
   <project name="SlimSaber/packages_apps_WallpaperPicker" path="packages/apps/WallpaperPicker" remote="github" revision="lp5.1" />
-
-  <!-- Kernel Adiutor -->
   <project name="SlimSaber/android-floating-action-button" path="packages/apps/FloatingActionButton" remote="github" revision="lp5.1" />
   <project path="frameworks/opt/cards" name="SlimRoms/frameworks_opt_cards" remote="github" revision="lp5.1" />
-  <project path="frameworks/opt/hardware" name="TeamTwisted/frameworks_opt_hardware" remote="github" revision="cm-12.1" />
 
-  <!-- Mms adding vendor -->
-  <project path="packages/apps/Mms" name="TeamTwisted/packages_apps_Mms" remote="github" revision="lp5.1" />
-  <project path="packages/apps/SlimOTA" name="TeamTwisted/packages_apps_SlimOTA" remote="github" revision="master" />
-  <project path="packages/apps/PackageInstaller" name="TeamTwisted/packages_apps_PackageInstaller" remote="github" revision="lp5.1" />
 </manifest>
