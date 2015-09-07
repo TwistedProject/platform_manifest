@@ -81,6 +81,7 @@
   <project path="external/chromium_org/tools/grit" name="platform/external/chromium_org/tools/grit" />
   <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp" />
   <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" />
+  <project path="external/clang" name="platform/external/clang" groups="pdk" />
   <project path="external/cmockery" name="platform/external/cmockery" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
   <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk-cw-fs" />
@@ -395,7 +396,7 @@
   <project path="device/lge/mako" name="TeamTwisted/platform_device_lge_mako" remote="github" revision="lp5.1" />
   <project path="device/asus/flo" name="TeamTwisted/platform_device_asus_flo" remote="github" revision="lp5.1" />
   <project path="kernel/lge/hammerhead" name="TeamTwisted/kernel_lge_hammerhead" remote="github" revision="lp5.1" />
-  <project path="kernel/moto/shamu" name="TeamTwisted/leanKernel-shamu" remote="github" revision="lk-lp" />
+  <project path="kernel/moto/hells-Core-N6" name="Hellsgod/hells-Core-N6" remote="github" revision="lollipop-mr1-m3-unified" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" clone-depth="1" />
   <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" clone-depth="1" />
   <project path="vendor/lge" name="Chroma-Aosp/vendor_lge" remote="github" revision="lp5.1" />
@@ -451,7 +452,6 @@
   <project path="external/busybox" name="DARKPOP/busybox" remote="github" revision="dark-5.1" />
   <project path="external/chromium_org/third_party/WebKit" name="DARKPOP/external_chromium_org_third_party_WebKit" remote="github" revision="dark-5.1" />
   <project path="external/chromium_org/third_party/skia" name="DARKPOP/external_chromium_org_third_party_skia" remote="github" revision="dark-5.1" />
-  <project path="external/clang" name="DARKPOP/android_external_clang" remote="github" revision="dark-5.1" />
   <project path="external/e2fsprogs" name="DARKPOP/external_e2fsprogs" remote="github" revision="dark-5.1" />
   <project path="external/google" name="CyanogenMod/android_external_google" remote="github" revision="cm-12.1" />
   <project path="external/libcxx" name="BenzoRom/external_libcxx" groups="pdk" remote="github" revision="lollipop" />
