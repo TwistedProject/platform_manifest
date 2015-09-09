@@ -399,7 +399,7 @@
   <project path="kernel/moto/hells-Core-N6" name="Hellsgod/hells-Core-N6" remote="github" revision="lollipop-mr1-m3-unified" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" clone-depth="1" />
   <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" clone-depth="1" />
-  <project path="vendor/lge" name="Chroma-Aosp/vendor_lge" remote="github" revision="lp5.1" />
+  <project path="vendor/lge" name="TeamTwisted/vendor_lge" remote="github" revision="lp5.1" />
   <project path="vendor/moto/shamu" name="TeamTwisted/vendor_moto_shamu" remote="github" revision="lp5.1" /> 
   <project path="vendor/asus/" name="Chroma-Aosp/vendor_asus" remote="github" revision= "lp5.1"/> 
 
