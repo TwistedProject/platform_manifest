@@ -10,7 +10,7 @@
   <remote name="bb"
            fetch="https://bitbucket.org/" />
 
-  <default revision="refs/tags/android-5.1.1_r16"
+  <default revision="refs/tags/android-5.1.1_r17"
            remote="aosp"
            sync-j="4" />
 
@@ -395,7 +395,7 @@
   <project path="device/moto/shamu" name="TeamTwisted/platform_device_moto_shamu" remote="github" revision="temp" />
   <project path="device/lge/mako" name="TeamTwisted/platform_device_lge_mako" remote="github" revision="lp5.1" />
   <project path="device/asus/flo" name="TeamTwisted/platform_device_asus_flo" remote="github" revision="lp5.1" />
-  <project path="kernel/lge/hammerhead" name="TeamTwisted/kernel_lge_hammerhead" remote="github" revision="lp5.1" />
+  <project path="kernel/lge/hells-Core-N5" name="TeamTwisted/hells-Core-N5" remote="github" revision="twisted" />
   <project path="kernel/moto/hells-Core-N6" name="Hellsgod/hells-Core-N6" remote="github" revision="lollipop-mr1-m3-unified" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" clone-depth="1" />
   <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" clone-depth="1" />
