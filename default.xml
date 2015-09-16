@@ -395,7 +395,7 @@
   <project path="device/moto/shamu" name="TeamTwisted/platform_device_moto_shamu" remote="github" revision="temp" />
   <project path="device/lge/mako" name="TeamTwisted/platform_device_lge_mako" remote="github" revision="lp5.1" />
   <project path="device/asus/flo" name="TeamTwisted/platform_device_asus_flo" remote="github" revision="lp5.1" />
-  <project path="kernel/lge/hells-Core-N5" name="TeamTwisted/hells-Core-N5" remote="github" revision="twisted" />
+  <project path="kernel/lge/hells-Core-N5" name="TeamTwisted/hells-Core-N5" remote="github" revision="twisted-mako" />
   <project path="kernel/moto/hells-Core-N6" name="Hellsgod/hells-Core-N6" remote="github" revision="lollipop-mr1-m3-unified" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" clone-depth="1" />
   <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" clone-depth="1" />
@@ -411,8 +411,8 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.2" name="xanaxdroid/arm-linux-androideabi-5.2" remote="bb" revision="sabermod" />
 
   <!--TeamTwisted Tracked Sources -->
-  <project path="art" name="TeamTwisted/art" remote="github" revision="opti-5.1" />
-  <project path="bionic" name="TeamTwisted/bionic" remote="github" revision="benzo" />
+  <project path="art" name="TeamTwisted/art" remote="github" revision="dark-5.1" />
+  <project path="bionic" name="TeamTwisted/bionic" remote="github" revision="dark-5.1" />
   <project path="external/chromium_org" name="TeamTwisted/external_chromium_org" remote="github" revision="opti-5.1" />
   <project path="external/flac" name="TeamTwisted/external_flac" remote="github" revision="opti-5.1" />
   <project path="external/jpeg" name="TeamTwisted/external_jpeg" remote="github" revision="opti-5.1" />
@@ -425,7 +425,7 @@
   <project path="frameworks/native" name="TeamTwisted/frameworks_native" remote="github" revision="lp5.1" />
   <project path="frameworks/opt/net/wifi" name="TeamTwisted/frameworks_opt_net_wifi" remote="github" revision="lp5.1" />
   <project path="frameworks/opt/telephony" name="TeamTwisted/frameworks_opts_telephony" remote="github" revision="lp5.1"  />
-  <project path="libcore" name="TeamTwisted/libcore" remote="github" revision="opti-5.1" />
+  <project path="libcore" name="TeamTwisted/libcore" remote="github" revision="dark-5.1" />
   <project path="packages/apps/Bluetooth" name="TeamTwisted/packages_apps_Bluetooth" remote="github" revision="lp5.1" />
   <project path="packages/apps/CellBroadcastReceiver" name="TeamTwisted/packages_apps_CellBroadcastReceiver"  remote="github" revision="lp5.1"/>
   <project path="packages/apps/Contacts" name="TeamTwisted/packages_apps_Contacts" remote="github" revision="lp5.1" />
