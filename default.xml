@@ -429,7 +429,7 @@
   <project path="frameworks/av" name="TeamTwisted/frameworks_av" remote="github" revision="m6.0" />
   <project path="frameworks/base" name="TeamTwisted/platform_frameworks_base" remote="github" revision="m6.0" />
   <project path="frameworks/native" name="TeamTwisted/frameworks_native" remote="github" revision="m6.0" />
-  <project path="libcore" name="TeamTwisted/libcore" remote="github" remote="github" revision="m6.0" />
+  <project path="libcore" name="TeamTwisted/libcore" remote="github" revision="m6.0" />
   <project path="packages/apps/Bluetooth" name="TeamTwisted/packages_apps_Bluetooth" remote="github" revision="m6.0" />
   <project path="packages/apps/Browser" name="TeamTwisted/packages_apps_Browser" remote="github" revision="m6.0" />
   <project path="packages/apps/CellBroadcastReceiver" name="TeamTwisted/packages_apps_CellBroadcastReceiver"  remote="github" revision="m6.0" />
