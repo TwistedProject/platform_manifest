@@ -6,7 +6,7 @@
 
   <remote  name="github"
            fetch="https://github.com/" />
-c
+
   <remote name="bb"
            fetch="https://bitbucket.org/" />
 
