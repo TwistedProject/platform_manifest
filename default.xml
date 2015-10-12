@@ -214,7 +214,6 @@
   <project path="external/sonic" name="platform/external/sonic" groups="pdk" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
   <project path="external/speex" name="platform/external/speex" groups="pdk" />
-  <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" />
   <project path="external/squashfs-tools" name="platform/external/squashfs-tools" groups="pdk" />
   <project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/strace" name="platform/external/strace" groups="pdk-cw-fs,pdk-fs" />
@@ -427,6 +426,7 @@
   <!--TeamTwisted Tracked Sources -->
   <project path="art" name="TeamTwisted/art" remote="github" revision="m6.0" />
   <project path="bionic" name="TeamTwisted/bionic" remote="github" revision="m6.0" />
+  <project path="external/sqlite" name="TeamTwisted/external_sqlite" remote="github" revision="m6.0" />
   <project path="frameworks/av" name="TeamTwisted/frameworks_av" remote="github" revision="m6.0" />
   <project path="frameworks/base" name="TeamTwisted/platform_frameworks_base" remote="github" revision="m6.0" />
   <project path="frameworks/native" name="TeamTwisted/frameworks_native" remote="github" revision="m6.0" />
