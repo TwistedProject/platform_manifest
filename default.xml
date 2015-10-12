@@ -410,7 +410,7 @@
   <project path="kernel/lge/hells-Core-N5" name="TeamTwisted/hells-Core-N5" remote="github" revision="twisted-marshmallow" />
   <project path="kernel/moto/hells-Core-N6" name="Hellsgod/hells-Core-N6" remote="github" revision="marshmallow" />
   <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" clone-depth="1" />
-  <project path="vendor/lge" name="TeamTwisted/vendor_lge" remote="github" revision="lp5.1" />
+  <project path="vendor/lge" name="TeamTwisted/vendor_lge" remote="github" revision="m6.0" />
   <project path="vendor/moto/shamu" name="TeamTwisted/vendor_moto_shamu" remote="github" revision="m6.0" /> 
   <project path="vendor/asus/" name="Chroma-Aosp/vendor_asus" remote="github" revision= "lp5.1"/> 
   <project path="vendor/broadcom/" name="TeamTwisted/vendor_broadcom" remote="github" revision= "m6.0"/> 
