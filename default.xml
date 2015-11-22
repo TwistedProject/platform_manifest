@@ -348,13 +348,11 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/bt" name="platform/system/bt" groups="pdk" />
-  <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/vold" name="platform/system/vold" groups="pdk" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
@@ -437,6 +435,8 @@
   <project path="packages/apps/DeskClock" name="TeamTwisted/packages_apps_DeskClock" remote="github" revision="m6.0" /> 
   <project path="frameworks/opt/hardware" name="TeamTwisted/frameworks_opt_hardware" remote="github" revision="cm-12.1" />
   <project path="system/core" name="TeamTwisted/system_core" remote="github" revision="m6.0" />
+  <project path="system/extras" name="TeamTwisted/system_extras" remote="github" revision="m6.0" />
+  <project path="system/vold" name="TeamTwisted/system_vold" remote="github" revision="m6.0" />
   <project path="vendor/twisted" name="TeamTwisted/platform_vendor_twisted" remote="github" revision="m6.0" />
 
   <!--Non Google/Twisted Sources -->
