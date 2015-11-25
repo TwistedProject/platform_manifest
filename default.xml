@@ -391,8 +391,6 @@
   <project path="vendor/lge" name="TeamTwisted/vendor_lge" remote="github" revision="m6.0" />
   <project path="vendor/moto" name="TeamTwisted/vendor_moto_shamu" remote="github" revision="m6.0" /> 
   <project path="vendor/asus" name="PureNexus/proprietary_vendor_asus" remote="github" revision="mm" />
-  <project path="vendor/broadcom/" name="TeamTwisted/vendor_broadcom" remote="github" revision= "m6.0"/> 
-  <project path="vendor/qcom/" name="TeamTwisted/vendor_qcom" remote="github" revision= "m6.0"/> 
 
   <!--Uber ToolChains-->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.2" name="TeamTwisted/arm-eabi-5.2-cortex-a15" remote="bb" revision="master" />
