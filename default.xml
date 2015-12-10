@@ -372,7 +372,7 @@
 
   <!--Device repos for builds-->
   <project path="device/huawei/angler" name="TeamTwisted/platform_device_huawei_angler" remote="github" revision="m6.0" />
-  <project path="device/huawei/angler-kernel" name="device/huawei/angler-kernel" groups="device,angler,broadcom_pdk" />
+  <project path="kernel/huawei/angler" name="TeamTwisted/angler" remote="github" revision="twisted" />
   <project path="device/lge/hammerhead" name="TeamTwisted/platform_device_lge_hammerhead" remote="github" revision="m6.0" />
   <project path="device/moto/shamu" name="TeamTwisted/platform_device_moto_shamu" remote="github" revision="m6.0" />
   <project path="device/lge/bullhead" name="TeamTwisted/platform_device_lge_bullhead" remote="github" revision="m6.0" />
