@@ -390,10 +390,11 @@
   <project path="vendor/asus" name="PureNexus/proprietary_vendor_asus" remote="github" revision="mm" />
 
   <!--Uber ToolChains-->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.2" name="TeamTwisted/arm-eabi-5.2-cortex-a15" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.3" name="TeamTwisted/arm-eabi-5.3-cortex-a15" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.0" name="UBERTC/arm-eabi-6.0" remote="bb" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.2" name="TeamTwisted/arm-linux-androideabi-5.2-cortex-a15" remote="bb" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="UBERTC/aarch64-linux-android-4.9" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.3" name="TeamTwisted/arm-linux-androideabi-5.3-cortex-a15" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="TeamTwisted/aarch64-linux-android-4.9" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-5.3-kernel" name="TeamTwisted/aarch64-linux-android-5.3-kernel" remote="bb" revision="master" />
 
   <!--TeamTwisted Tracked Sources -->
   <project path="art" name="TeamTwisted/art" remote="github" revision="m6.0" />
