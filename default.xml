@@ -10,7 +10,7 @@
   <remote name="bb"
            fetch="https://bitbucket.org/" />
 
-  <default revision="refs/tags/android-6.0.1_r3"
+  <default revision="refs/tags/android-6.0.1_r10"
            remote="aosp"
            sync-j="4" />
 
@@ -386,7 +386,7 @@
   <project path="vendor/huawei" name="TeamTwisted/vendor_huawei_angler" remote="github" revision="m6.0" />
   <project path="vendor/lge" name="TeamTwisted/vendor_lge" remote="github" revision="m6.0" />
   <project path="vendor/moto" name="TeamTwisted/vendor_moto_shamu" remote="github" revision="m6.0" /> 
-  <project path="vendor/asus" name="PureNexus/proprietary_vendor_asus" remote="github" revision="mm" />
+  <project path="vendor/asus" name="PureNexusProject/proprietary_vendor_asus" remote="github" revision="mm" />
 
   <!--Uber ToolChains-->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.3" name="TeamTwisted/arm-eabi-5.3-cortex-a15" remote="bb" revision="master" />
