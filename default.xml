@@ -359,7 +359,7 @@
   <project path="device/asus/flo" name="TeamTwisted/platform_device_asus_flo" remote="github" revision="m6.0" />
   <project path="kernel/lge/hells-Core-N5" name="TeamTwisted/hells-Core-N5" remote="github" revision="twisted-marshmallow" />
   <project path="kernel/moto/hells-Core-N6" name="TeamTwisted/hells-Core-N6" remote="github" revision="twisted-marshmallow" />
-  <project path="kerne/lge/bullhead" name="DespairFactor/bullhead" remote="github" revision="master" />
+  <project path="kerne/lge/bullhead" name="TeamTwisted/bullhead" remote="github" revision="master" />
   <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" clone-depth="1" />
 
   <!--Vendor repos-->
