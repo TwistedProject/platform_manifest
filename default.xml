@@ -411,4 +411,8 @@
   <project path="external/busybox" name="TeamTwisted/busybox" remote="github" revision="m6.0" />
   <project path="external/f2fs-tools" name="TeamTwisted/android_external_f2fs-tools" remote="github" revision="m6.0" />
   <project path="external/jemalloc" name="TeamTwisted/external_jemalloc" remote="github" revision="m6.0" />
+
+  <!--until build is set -->
+  <project path="prebuilts/clang/linux-x86/host/3.6" name="platform/prebuilts/clang/linux-x86/host/3.6" groups="pdk,linux" />
+  <project path="developers/samples/android" name="platform/developers/samples/android" />
 </manifest>
