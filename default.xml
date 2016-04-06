@@ -10,11 +10,11 @@
   <remote name="bb"
            fetch="https://bitbucket.org/" />
 
-  <default revision="refs/tags/android-6.0.1_r20"
+  <default revision="refs/tags/android-6.0.1_r24"
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="TwistedProject/android_build" remote="github" revision="m6.0-arm" >
+  <project path="build" name="TwistedProject/android_build" remote="github" revision="m6.0-arm64" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -335,12 +335,12 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
   <!--Device repos for builds-->
-  <project path="device/lge/hammerhead" name="TwistedProject/device_hammerhead" remote="github" revision="m6.0-arm" />
-  <project path="device/moto/shamu" name="TwistedProject/device_shamu" remote="github" revision="m6.0-arm" />
-  <project path="kernel/lge/hells-Core-N5" name="TeamTwisted/hells-Core-N5" remote="github" revision="t-m-u" />
-  <project path="kernel/moto/hells-Core-N6" name="TeamTwisted/hells-Core-N6" remote="github" revision="twisted_core" />
+  <project path="device/lge/bullhead" name="TwistedProject/device_bullhead" remote="github" revision="m6.0-arm64" />
+  <project path="device/huawei/angler" name="TwistedProject/device_angler" remote="github" revision="m6.0-arm64" />
+  <project path="kernel/lge/bullhead" name="TeamTwisted/bullhead" remote="github" revision="master" />
+  <project path="kernel/huawei/angler" name="TeamTwisted/angler" remote="github" revision="twisted" />
   <project path="vendor/lge" name="TwistedProject/vendor_lge" remote="github" revision="m6.0-arm" />
-  <project path="vendor/moto" name="TwistedProject/vendor_moto" remote="github" revision="m6.0-arm" /> 
+  <project path="vendor/huawei" name="TwistedProject/vendor_huawei" remote="github" revision="m6.0-arm64" /> 
 
   <!--Uber ToolChains-->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="UBERTC/arm-eabi-4.9" remote="bb" revision="master" />
@@ -348,54 +348,57 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.0" name="UBERTC/arm-eabi-6.0" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="UBERTC/arm-linux-androideabi-4.9" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.3" name="UBERTC/arm-linux-androideabi-5.3" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="TeamTwisted/aarch64-linux-android-4.9" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-kernel" name="TeamTwisted/aarch64-linux-android-4.9-kernel" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-5.3-kernel" name="TeamTwisted/aarch64-linux-android-5.3-kernel" remote="bb" revision="master" />
 
   <!--Dragon ToolChain-->
   <project path="prebuilts/clang/linux-x86/host/3.8" name="dragon-tc/dragontc-3.9" remote="bb" revision="master" />
 
   <!--TeamTwisted Tracked Sources -->
-  <project path="art" name="TwistedProject/android_art" remote="github" revision="m6.0-arm" />
-  <project path="bionic" name="TwistedProject/android_bionic" remote="github" revision="m6.0-arm" />
-  <project path="dalvik" name="TwistedProject/android_dalvik" remote="github" revision="m6.0-arm" />
-  <project path="external/jpeg" name="TwistedProject/external_jpeg" remote="github" revision="m6.0-arm" />
-  <project path="external/libpng" name="TwistedProject/external_libpng" remote="github" revision="m6.0-arm" />
-  <project path="external/llvm" name="TwistedProject/external_llvm" remote="github" revision="m6.0-arm" />
-  <project path="external/sepolicy" name="TwistedProject/external_sepolicy" remote="github" revision="m6.0-arm" />
-  <project path="external/skia" name="TwistedProject/external_skia" remote="github" revision="m6.0-arm" />
-  <project path="external/sqlite" name="TwistedProject/external_sqlite" remote="github" revision="m6.0-arm" />
-  <project path="frameworks/opt/telephony" name="TwistedProject/frameworks_opt_telephony" remote="github" revision="m6.0-arm"/>
-  <project path="frameworks/av" name="TwistedProject/frameworks_av" remote="github" revision="m6.0-arm" />
-  <project path="frameworks/base" name="TwistedProject/frameworks_base" remote="github" revision="m6.0-arm" />
-  <project path="frameworks/native" name="TwistedProject/frameworks_native" remote="github" revision="m6.0-arm" />
-  <project path="frameworks/rs" name="TwistedProject/frameworks_rs" remote="github" revision="m6.0-arm" />
-  <project path="hardware/qcom/audio" name="TwistedProject/hardware_qcom_audio" remote="github" revision="m6.0-arm" />
-  <project path="hardware/qcom/display" name="TwistedProject/hardware_qcom_display" remote="github" revision="m6.0-arm" />
-  <project path="frameworks/support" name="TwistedProject/frameworks_support" remote="github" revision="m6.0-arm" />
-  <project path="libcore" name="TwistedProject/android_libcore" remote="github" revision="m6.0-arm" />
-  <project path="ndk" name="TwistedProject/android_ndk" remote="github" revision="m6.0-arm" />
-  <project path="packages/apps/Bluetooth" name="TwistedProject/packages_apps_Bluetooth" remote="github" revision="m6.0-arm" />
-  <project path="packages/apps/Browser" name="TwistedProject/packages_apps_Browser" remote="github" revision="m6.0-arm" />
-  <project path="packages/apps/CellBroadcastReceiver" name="TwistedProject/packages_apps_CellBroadcastReceiver"  remote="github" revision="m6.0-arm" />
-  <project path="packages/apps/Contacts" name="TwistedProject/packages_apps_Contacts" remote="github" revision="m6.0-arm" />
-  <project path="packages/apps/ContactsCommon" name="TwistedProject/packages_apps_ContactsCommon" remote="github" revision="m6.0-arm" />
-  <project path="packages/apps/Dialer" name="TwistedProject/packages_apps_Dialer" remote="github" revision="m6.0-arm" />
-  <project path="packages/apps/Gallery2" name="TwistedProject/packages_apps_Gallery2" remote="github" revision="m6.0-arm" />
-  <project path="packages/apps/InCallUI" name="TwistedProject/packages_apps_InCallUI" remote="github" revision="m6.0-arm" />
-  <project path="packages/apps/PackageInstaller" name="TwistedProject/packages_apps_PackageInstaller" remote="github" revision="m6.0-arm" />
-  <project path="packages/apps/PhoneCommon" name="TwistedProject/packages_apps_PhoneCommon" remote="github" revision="m6.0-arm" />
-  <project path="packages/apps/Settings" name="TwistedProject/packages_apps_Settings" remote="github" revision="m6.0-arm" />
-  <project path="packages/inputmethods/LatinIME" name="TwistedProject/packages_inputmethods_LatinIME" remote="github" revision="m6.0-arm" />
-  <project path="packages/providers/ContactsProvider" name="TwistedProject/packages_providers_ContactProvider" remote="github" revision="m6.0-arm" />
-  <project path="packages/providers/DownloadProvider" name="TwistedProject/packages_providers_DownloadProvider" remote="github" revision="m6.0-arm" />
-  <project path="packages/providers/MediaProvider" name="TwistedProject/packages_providers_MediaProvider" remote="github" revision="m6.0-arm" />
-  <project path="packages/providers/TelephonyProvider" name="TwistedProject/packages_providers_TelephonyProvider" remote="github" revision="m6.0-arm" />
-  <project path="packages/services/Telecomm" name="TwistedProject/packages_services_Telecomm"  remote="github" revision="m6.0-arm" />
-  <project path="packages/services/Telephony" name="TwistedProject/packages_services_Telephony" remote="github" revision="m6.0-arm" />
-  <project path="prebuilts/ndk" name="TwistedProject/android_prebuilt_ndk" remote="github" revision="m6.0-arm" />
-  <project path="system/bt" name="TwistedProject/system_bt" remote="github" revision="m6.0-arm" />
-  <project path="system/core" name="TwistedProject/system_core" remote="github" revision="m6.0-arm" />
-  <project path="system/extras" name="TwistedProject/system_extras" remote="github" revision="m6.0-arm" />
-  <project path="system/vold" name="TwistedProject/system_vold" remote="github" revision="m6.0-arm" />
-  <project path="vendor/twisted" name="TwistedProject/vendor_twisted" remote="github" revision="m6.0-arm" />
+  <project path="art" name="TwistedProject/android_art" remote="github" revision="m6.0-arm64" />
+  <project path="bionic" name="TwistedProject/android_bionic" remote="github" revision="m6.0-arm64" />
+  <project path="dalvik" name="TwistedProject/android_dalvik" remote="github" revision="m6.0-arm64" />
+  <project path="external/jpeg" name="TwistedProject/external_jpeg" remote="github" revision="m6.0-arm64" />
+  <project path="external/libpng" name="TwistedProject/external_libpng" remote="github" revision="m6.0-arm64" />
+  <project path="external/llvm" name="TwistedProject/external_llvm" remote="github" revision="m6.0-arm64" />
+  <project path="external/sepolicy" name="TwistedProject/external_sepolicy" remote="github" revision="m6.0-arm64" />
+  <project path="external/skia" name="TwistedProject/external_skia" remote="github" revision="m6.0-arm64" />
+  <project path="external/sqlite" name="TwistedProject/external_sqlite" remote="github" revision="m6.0-arm64" />
+  <project path="frameworks/opt/telephony" name="TwistedProject/frameworks_opt_telephony" remote="github" revision="m6.0-arm64"/>
+  <project path="frameworks/av" name="TwistedProject/frameworks_av" remote="github" revision="m6.0-arm64" />
+  <project path="frameworks/base" name="TwistedProject/frameworks_base" remote="github" revision="m6.0-arm64" />
+  <project path="frameworks/native" name="TwistedProject/frameworks_native" remote="github" revision="m6.0-arm64" />
+  <project path="frameworks/rs" name="TwistedProject/frameworks_rs" remote="github" revision="m6.0-arm64" />
+  <project path="hardware/qcom/audio" name="TwistedProject/hardware_qcom_audio" remote="github" revision="m6.0-arm64" />
+  <project path="hardware/qcom/display" name="TwistedProject/hardware_qcom_display" remote="github" revision="m6.0-arm64" />
+  <project path="frameworks/support" name="TwistedProject/frameworks_support" remote="github" revision="m6.0-arm64" />
+  <project path="libcore" name="TwistedProject/android_libcore" remote="github" revision="m6.0-arm64" />
+  <project path="ndk" name="TwistedProject/android_ndk" remote="github" revision="m6.0-arm64" />
+  <project path="packages/apps/Bluetooth" name="TwistedProject/packages_apps_Bluetooth" remote="github" revision="m6.0-arm64" />
+  <project path="packages/apps/Browser" name="TwistedProject/packages_apps_Browser" remote="github" revision="m6.0-arm64" />
+  <project path="packages/apps/CellBroadcastReceiver" name="TwistedProject/packages_apps_CellBroadcastReceiver"  remote="github" revision="m6.0-arm64" />
+  <project path="packages/apps/Contacts" name="TwistedProject/packages_apps_Contacts" remote="github" revision="m6.0-arm64" />
+  <project path="packages/apps/ContactsCommon" name="TwistedProject/packages_apps_ContactsCommon" remote="github" revision="m6.0-arm64" />
+  <project path="packages/apps/Dialer" name="TwistedProject/packages_apps_Dialer" remote="github" revision="m6.0-arm64" />
+  <project path="packages/apps/Gallery2" name="TwistedProject/packages_apps_Gallery2" remote="github" revision="m6.0-arm64" />
+  <project path="packages/apps/InCallUI" name="TwistedProject/packages_apps_InCallUI" remote="github" revision="m6.0-arm64" />
+  <project path="packages/apps/PackageInstaller" name="TwistedProject/packages_apps_PackageInstaller" remote="github" revision="m6.0-arm64" />
+  <project path="packages/apps/PhoneCommon" name="TwistedProject/packages_apps_PhoneCommon" remote="github" revision="m6.0-arm64" />
+  <project path="packages/apps/Settings" name="TwistedProject/packages_apps_Settings" remote="github" revision="m6.0-arm64" />
+  <project path="packages/inputmethods/LatinIME" name="TwistedProject/packages_inputmethods_LatinIME" remote="github" revision="m6.0-arm64" />
+  <project path="packages/providers/ContactsProvider" name="TwistedProject/packages_providers_ContactProvider" remote="github" revision="m6.0-arm64" />
+  <project path="packages/providers/DownloadProvider" name="TwistedProject/packages_providers_DownloadProvider" remote="github" revision="m6.0-arm64" />
+  <project path="packages/providers/MediaProvider" name="TwistedProject/packages_providers_MediaProvider" remote="github" revision="m6.0-arm64" />
+  <project path="packages/providers/TelephonyProvider" name="TwistedProject/packages_providers_TelephonyProvider" remote="github" revision="m6.0-arm64" />
+  <project path="packages/services/Telecomm" name="TwistedProject/packages_services_Telecomm"  remote="github" revision="m6.0-arm64" />
+  <project path="packages/services/Telephony" name="TwistedProject/packages_services_Telephony" remote="github" revision="m6.0-arm64" />
+  <project path="prebuilts/ndk" name="TwistedProject/android_prebuilt_ndk" remote="github" revision="m6.0-arm64" />
+  <project path="system/bt" name="TwistedProject/system_bt" remote="github" revision="m6.0-arm64" />
+  <project path="system/core" name="TwistedProject/system_core" remote="github" revision="m6.0-arm64" />
+  <project path="system/extras" name="TwistedProject/system_extras" remote="github" revision="m6.0-arm64" />
+  <project path="system/vold" name="TwistedProject/system_vold" remote="github" revision="m6.0-arm64" />
+  <project path="vendor/twisted" name="TwistedProject/vendor_twisted" remote="github" revision="m6.0-arm64" />
 
   <!--Non Google/Twisted Sources -->
   <project path="external/chromium-webview" name="BenzoRom/external_chromium-webview" remote="github" revision="marshmallow" />
