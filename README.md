@@ -1,5 +1,6 @@
-TeamTwisted Github
+TwistedProject Github
 ===================
+Build sources for Twisted Rom Shamu and Hammerhead devices
 
 Setting up Build Environment
 ---------------------------
@@ -12,7 +13,7 @@ Initializing the Source
 (Assuming you have a valid build environment setup)
 - mkdir aosp (or whatever you want to name the source folder)
 - cd ~/aosp
-- repo init -u https://github.com/TeamTwisted/aosp_manifest.git -b m6.0
+- repo init -u https://github.com/TwistedProject/platform_manifest.git -b arm
 
 Sync the Source
 ---------------
