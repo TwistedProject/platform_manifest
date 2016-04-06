@@ -13,7 +13,7 @@ Initializing the Source
 (Assuming you have a valid build environment setup)
 - mkdir aosp (or whatever you want to name the source folder)
 - cd ~/aosp
-- repo init -u https://github.com/TwistedProject/platform_manifest.git -b arm
+- repo init -u https://github.com/TwistedProject/platform_manifest.git -b m6.0-arm
 
 Sync the Source
 ---------------
