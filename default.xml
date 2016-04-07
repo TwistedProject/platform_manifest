@@ -411,4 +411,5 @@
 
   <!--until build is set -->
   <project path="prebuilts/clang/linux-x86/host/3.6" name="platform/prebuilts/clang/linux-x86/host/3.6" groups="pdk,linux" />
+  <project path="device/sample" name="device/sample" groups="pdk" />
 </manifest>
