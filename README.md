@@ -25,8 +25,8 @@ Getting Ready to Build
 
 Choose Supported Device to Build
 --------------------------------
-- lunch twisted_hammerhead-user
-- lunch twisted_shamu-user
+- lunch twisted_angler-userdebug 
+- lunch twisted_bullhead-userdebug
 
 Now Build it
 ------------
