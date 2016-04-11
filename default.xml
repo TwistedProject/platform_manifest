@@ -337,23 +337,19 @@
   <!--Device repos for builds-->
   <project path="device/lge/bullhead" name="TwistedProject/device_bullhead" remote="github" revision="m6.0-arm64" />
   <project path="device/huawei/angler" name="TwistedProject/device_angler" remote="github" revision="m6.0-arm64" />
-  <project path="kernel/lge/bullhead" name="TeamTwisted/bullhead" remote="github" revision="master" />
-  <project path="kernel/huawei/angler" name="TeamTwisted/angler" remote="github" revision="twisted" />
+  <project path="kernel/lge/bullhead" name="DespairFactor/bullhead" remote="github" revision="maul" />
+  <project path="kernel/huawei/angler" name="DespairFactor/angler" remote="github" revision="maul" />
   <project path="vendor/lge" name="TwistedProject/vendor_lge" remote="github" revision="m6.0-arm" />
   <project path="vendor/huawei" name="TwistedProject/vendor_huawei" remote="github" revision="m6.0-arm64" /> 
 
   <!--Uber ToolChains-->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="UBERTC/arm-eabi-4.9" remote="bb" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.3" name="UBERTC/arm-eabi-5.3" remote="bb" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.0" name="UBERTC/arm-eabi-6.0" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="UBERTC/arm-linux-androideabi-4.9" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.3" name="UBERTC/arm-linux-androideabi-5.3" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="TeamTwisted/aarch64-linux-android-4.9" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-kernel" name="TeamTwisted/aarch64-linux-android-4.9-kernel" remote="bb" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-5.3-kernel" name="TeamTwisted/aarch64-linux-android-5.3-kernel" remote="bb" revision="master" />
 
   <!--Dragon ToolChain-->
-  <project path="prebuilts/clang/linux-x86/host/3.8" name="dragon-tc/dragontc-3.9" remote="bb" revision="master" />
+  <project path="prebuilts/clang/linux-x86/host/3.9" name="dragon-tc/dragontc-3.9" remote="bb" revision="master" />
 
   <!--TeamTwisted Tracked Sources -->
   <project path="art" name="TwistedProject/android_art" remote="github" revision="m6.0-arm64" />
