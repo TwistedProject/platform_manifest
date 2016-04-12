@@ -30,7 +30,7 @@ Choose Supported Device to Build
 
 Now Build it
 ------------
-- mka otapackage
+- mka bacon
 
 For Quick Dirty Rebuilds
 ------------------------
