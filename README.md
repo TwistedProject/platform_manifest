@@ -1,6 +1,6 @@
 TwistedProject Github
 ===================
-Build sources for Twisted Rom Shamu and Hammerhead devices
+Build sources for Twisted Rom Angler and Bullhead devices
 
 Setting up Build Environment
 ---------------------------
