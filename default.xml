@@ -381,6 +381,7 @@
   <project path="packages/apps/PackageInstaller" name="TwistedProject/packages_apps_PackageInstaller" remote="github" revision="m6.0-arm64" />
   <project path="packages/apps/PhoneCommon" name="TwistedProject/packages_apps_PhoneCommon" remote="github" revision="m6.0-arm64" />
   <project path="packages/apps/Settings" name="TwistedProject/packages_apps_Settings" remote="github" revision="m6.0-arm64" />
+  <project path="packages/apps/SlimOTA" name="TwistedProject/packages_apps_SlimOTA" remote="github" revision="master" />
   <project path="packages/inputmethods/LatinIME" name="TwistedProject/packages_inputmethods_LatinIME" remote="github" revision="m6.0-arm64" />
   <project path="packages/providers/ContactsProvider" name="TwistedProject/packages_providers_ContactProvider" remote="github" revision="m6.0-arm64" />
   <project path="packages/providers/DownloadProvider" name="TwistedProject/packages_providers_DownloadProvider" remote="github" revision="m6.0-arm64" />
