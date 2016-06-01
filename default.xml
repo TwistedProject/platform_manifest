@@ -9,6 +9,9 @@
 
   <remote name="bb"
            fetch="https://bitbucket.org/" />
+  
+  <remote name="linaro"
+           fetch="https://android-git.linaro.org" />
 
   <default revision="refs/tags/android-6.0.1_r25"
            remote="aosp"
@@ -342,11 +345,10 @@
   <project path="vendor/lge" name="TwistedProject/vendor_lge" remote="github" revision="m6.0-arm" />
   <project path="vendor/huawei" name="TwistedProject/vendor_huawei" remote="github" revision="m6.0-arm64" /> 
 
-  <!--Uber ToolChains-->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="UBERTC/arm-linux-androideabi-4.9" remote="bb" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="UBERTC/aarch64-linux-android-4.9" remote="bb" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-kernel" name="UBERTC/aarch64-linux-android-4.9-kernel" remote="bb" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-7.0-kernel" name="UBERTC/aarch64-linux-android-7.0-kernel" remote="bb" revision="master" />
+  <!-- UBER/Linaro ToolChains-->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="DespairFactor/arm-linux-androideabi-4.9" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="DespairFactor/aarch64-linux-android-4.9" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.1-linaro" name="git/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.1-linaro" remote="linaro" revision="master" />
 
   <!--Dragon ToolChain-->
   <project path="prebuilts/clang/linux-x86/host/3.9" name="dragon-tc/dragontc-3.9" remote="bb" revision="master" />
