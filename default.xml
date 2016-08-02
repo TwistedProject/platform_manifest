@@ -10,7 +10,7 @@
   <remote name="bb"
            fetch="https://bitbucket.org/" />
 
-  <default revision="refs/tags/android-6.0.1_r50"
+  <default revision="refs/tags/android-6.0.1_r60"
            remote="aosp"
            sync-j="4" />
 
